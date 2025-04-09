@@ -1,0 +1,10 @@
+local function values()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/s4lvaz/trade-helper/refs/heads/main/values"))()
+end
+local function gui()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/s4lvaz/trade-helper/refs/heads/main/gui"))()
+end
+
+task.spawn(values)
+wait(2)
+task.spawn(gui)
